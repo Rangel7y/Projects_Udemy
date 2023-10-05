@@ -1,6 +1,26 @@
+/* IMPORT _VARS */
+/* COLORS */
+:root {
+  --grayDark-color: #333;
+  --grayLight-color: #70747a;
+}
+
 /* IMPORT _BODY */
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+/* IMPORT _MAIN */
+/* H1,H2,H3 */
+h1, h2, h3 {
+  color: var(--grayDark-color);
+}
+
+/* P */
+p {
+  color: var(--grayLight-color);
 }/*# sourceMappingURL=styles.css.map */
