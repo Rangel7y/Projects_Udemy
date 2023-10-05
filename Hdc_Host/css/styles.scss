@@ -1,3 +1,9 @@
 
+/* IMPORT _VARS */
+@use 'components/utils/vars';
+
 /* IMPORT _BODY */
-@import 'components/core/body';
+@use 'components/core/body';
+
+/* IMPORT _MAIN */
+@use 'components/core/main';
