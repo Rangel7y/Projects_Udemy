@@ -1,0 +1,40 @@
+
+/* HDR-CTN */
+.hdr-ctn{
+    width: 100%;
+    height: 80px;
+
+    background-color: var(--BlackPearl-color);
+
+    padding: 0 2rem;
+}
+
+/* NAV-CTN */
+.nav-ctn{
+    position: relative;
+}
+
+/* LOGO (IMG) */
+.logo{
+    width: 50px;
+    margin-top: 15px;
+}
+
+/* UL-NAV-ITM */
+.ul-nav-itm{
+    display: inline-block;
+    
+    position: absolute;
+
+    right: 0;
+    margin: 0;
+
+    height: 80px;
+    line-height: 80px;
+
+    li{
+        display: inline-block;
+
+        text-transform: uppercase;
+    }
+}
