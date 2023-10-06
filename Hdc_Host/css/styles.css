@@ -8,6 +8,7 @@
   --VeryLightGrey-color: #ccc;
   --JungleGreen-color: #2cc76A;
   --MountainMeadow-color: #22bb5F;
+  --Black-color: #000;
 }
 
 /* IMPORT _BODY */
@@ -58,8 +59,6 @@ p {
   margin: 0;
   height: 80px;
   line-height: 80px;
-  /* UL-NAV-ITM (LI) */
-  /* UL-NAV-ITM (A) */
 }
 .ul-nav-itm li {
   display: inline-block;
@@ -87,4 +86,28 @@ p {
 }
 
 /* IMPORT _MAIN-BANNER */
-/* MAIN-BANNER *//*# sourceMappingURL=styles.css.map */
+/* MAIN-BANNER */
+.main-banner {
+  background-image: url("../assets/mainbanner.png");
+  background-size: cover;
+  background-position: center;
+  padding: 10rem 0px;
+}
+.main-banner h1, .main-banner p {
+  text-align: center;
+  text-shadow: var(--Black-color) 3px 2px 3px;
+  color: var(--White-color);
+  font-weight: bold;
+}
+.main-banner h1 {
+  font-size: 54px;
+}
+.main-banner p {
+  font-size: 32px;
+}
+
+/* IMPORT _SERVICES-CONTAINER */
+/* SERVICES-CONTAINER */
+.services-ctn {
+  padding: 5rem 0;
+}/*# sourceMappingURL=styles.css.map */
