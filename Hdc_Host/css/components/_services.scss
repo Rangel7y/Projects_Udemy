@@ -2,4 +2,36 @@
 /* SERVICES-CONTAINER */
 .services-ctn{
     padding: 5rem 0;
+
+    ul{
+        display: flex;
+
+        width: 90%;
+        margin: 0 auto;
+
+        li{
+            flex: 1 1 200px;
+
+            padding: 20px;
+
+            list-style: none;
+
+            text-align: center;
+        }
+    }
+}
+
+/* ICONS CLOUDFLARE */
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.fa-shield-alt{
+    color: var(--MountainMeadow-color);
+}
+.fa-rocket{
+    color: var(--Cinnabar-color);
+}   
+.fa-comments{
+    color: var(--CarrotOrange-color);
 }
