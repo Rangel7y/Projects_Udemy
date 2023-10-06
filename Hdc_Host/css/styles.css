@@ -81,6 +81,10 @@ p {
   background-color: var(--JungleGreen-color);
   border-radius: 5px;
 }
-.default-btn:hover {
+.ul-nav-itm .default-btn:hover {
   background-color: var(--MountainMeadow-color);
-}/*# sourceMappingURL=styles.css.map */
+  color: var(--White-color);
+}
+
+/* IMPORT _MAIN-BANNER */
+/* MAIN-BANNER *//*# sourceMappingURL=styles.css.map */
