@@ -124,18 +124,27 @@ p {
   list-style: none;
   text-align: center;
 }
+.services-ctn ul h3 {
+  margin-bottom: 25px;
+}
+.services-ctn ul p {
+  line-height: 24px;
+}
 
 /* ICONS CLOUDFLARE */
 .fas {
   font-size: 60px;
   margin-bottom: 15px;
 }
+
 .fa-shield-alt {
   color: var(--MountainMeadow-color);
 }
+
 .fa-rocket {
   color: var(--Cinnabar-color);
 }
+
 .fa-comments {
   color: var(--CarrotOrange-color);
 }/*# sourceMappingURL=styles.css.map */
