@@ -32,9 +32,38 @@
     height: 80px;
     line-height: 80px;
 
+    /* UL-NAV-ITM (LI) */
     li{
         display: inline-block;
 
         text-transform: uppercase;
+
+        margin-left: 25px;
+    }
+
+    /* UL-NAV-ITM (A) */
+    a{
+        color: var(--White-color);
+
+        text-decoration: none;
+
+        transition: 0.5s;
+
+        &:hover{
+            color: var(--VeryLightGrey-color);
+        }
+    }
+}
+
+/* UL-NAV-ITM > LI > CLASS DEFAULT-BTN */
+.default-btn{
+    padding: 15px 20px;
+
+    background-color: var(--JungleGreen-color);
+
+    border-radius: 5px;
+
+    &:hover{
+        background-color: var(--MountainMeadow-color);
     }
 }
