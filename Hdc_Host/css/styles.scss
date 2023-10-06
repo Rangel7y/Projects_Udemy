@@ -9,4 +9,7 @@
 @use 'components/core/main';
 
 /* IMPORT _NAV-CTN */
-@use 'components/hdr/hdr';
+@use 'components/hdr';
+
+/* IMPORT _MAIN-BANNER */
+@use 'components/banner';
