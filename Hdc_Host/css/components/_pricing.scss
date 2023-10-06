@@ -2,4 +2,63 @@
 /* _PRICING-CONTAINER */
 .pricing-ctn{
     padding-bottom: 5rem;
+
+    text-align: center;
+
+    h2{
+        font-size: 36px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+}
+
+/* PLANS-CONTAINER */
+.plans-ctn{
+    display: flex;
+    justify-content: space-between;
+
+    width: 90%;
+
+    margin: 50px auto 0;
+}
+
+/* PLAN */
+.plan{
+    flex: 1;
+    
+    max-width: 275px;
+
+    margin: 0 20px;
+
+    ul{
+        padding: 0;
+
+        li{
+            height: 50px;
+
+            line-height: 50px;
+
+            list-style: none;
+
+            background-color: var(--Zircon-color);
+
+            color: var(--NightRider-color);
+        }
+    }
+}
+
+/* PRICE */
+.price{
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+
+    background-color: var(--LimeGreen-color);
+
+    color: var(--White-color);
+
+    text-align: center;
 }
