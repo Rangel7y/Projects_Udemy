@@ -80,5 +80,23 @@
 
         padding: 50px 0;
     }
+
+    .plan-btn{
+        height: 75px;
+        
+        background-color: var(--LimeGreen-color);
+
+        color: var(--White-color);
+
+        font-size: 24px;
+
+        line-height: 75px;
+
+        cursor: pointer;
+    }
+
+    .recommended{
+        background-color: var(--Crusta-color);
+    }
 }
 
