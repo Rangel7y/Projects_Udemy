@@ -1,2 +1,28 @@
 
 /* MAIN-BANNER */
+.main-banner{
+    background-image: url('../assets/mainbanner.png');
+
+    background-size: cover;
+    background-position: center;
+
+    padding: 10rem 0px;
+
+    h1, p{
+        text-align: center;
+
+        text-shadow: var(--Black-color) 3px 2px 3px;
+
+        color: var(--White-color);
+
+        font-weight: bold;
+    }
+
+    h1{
+        font-size: 54px;
+    }
+
+    p{
+        font-size: 32px;
+    }
+}
