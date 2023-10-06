@@ -9,6 +9,8 @@
   --JungleGreen-color: #2cc76A;
   --MountainMeadow-color: #22bb5F;
   --Black-color: #000;
+  --Cinnabar-color: #EF3F29;
+  --CarrotOrange-color: #EF8F29;
 }
 
 /* IMPORT _BODY */
@@ -110,4 +112,30 @@ p {
 /* SERVICES-CONTAINER */
 .services-ctn {
   padding: 5rem 0;
+}
+.services-ctn ul {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.services-ctn ul li {
+  flex: 1 1 200px;
+  padding: 20px;
+  list-style: none;
+  text-align: center;
+}
+
+/* ICONS CLOUDFLARE */
+.fas {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+.fa-shield-alt {
+  color: var(--MountainMeadow-color);
+}
+.fa-rocket {
+  color: var(--Cinnabar-color);
+}
+.fa-comments {
+  color: var(--CarrotOrange-color);
 }/*# sourceMappingURL=styles.css.map */
