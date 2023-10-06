@@ -147,4 +147,10 @@ p {
 
 .fa-comments {
   color: var(--CarrotOrange-color);
+}
+
+/* IMPORT _PRICING-CONTAINER */
+/* _PRICING-CONTAINER */
+.pricing-ctn {
+  padding-bottom: 5rem;
 }/*# sourceMappingURL=styles.css.map */
