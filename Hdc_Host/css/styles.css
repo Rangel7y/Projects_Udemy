@@ -4,6 +4,7 @@
   --NightRider-color: #333;
   --Raven-color: #70747a;
   --BlackPearl-color: #232a31;
+  --BlackPearl2-color: #202B34;
   --White-color: #fff;
   --VeryLightGrey-color: #ccc;
   --JungleGreen-color: #2cc76A;
@@ -191,8 +192,20 @@ p {
 .plan .price {
   width: 120px;
   height: 120px;
+  margin: 0 auto -50px;
+  position: relative;
   border-radius: 50%;
   background-color: var(--LimeGreen-color);
   color: var(--White-color);
+  font-size: 18px;
   text-align: center;
+  line-height: 120px;
+}
+.plan .plan-name {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: var(--BlackPearl2-color);
+  color: var(--White-color);
+  padding: 50px 0;
 }/*# sourceMappingURL=styles.css.map */
