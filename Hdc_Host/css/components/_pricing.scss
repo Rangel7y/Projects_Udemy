@@ -47,18 +47,18 @@
             color: var(--NightRider-color);
         }
     }
+
+    .price{
+        width: 120px;
+        height: 120px;
+    
+        border-radius: 50%;
+    
+        background-color: var(--LimeGreen-color);
+    
+        color: var(--White-color);
+    
+        text-align: center;
+    }
 }
 
-/* PRICE */
-.price{
-    width: 120px;
-    height: 120px;
-
-    border-radius: 50%;
-
-    background-color: var(--LimeGreen-color);
-
-    color: var(--White-color);
-
-    text-align: center;
-}
