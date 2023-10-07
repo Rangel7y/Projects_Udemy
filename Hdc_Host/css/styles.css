@@ -28,6 +28,12 @@
   font-family: Helvetica, sans-serif;
 }
 
+footer {
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0 100px;
+}
+
 /* IMPORT _MAIN */
 /* H1,H2,H3 */
 h1, h2, h3 {
@@ -263,4 +269,40 @@ p {
 }
 .searchdomain-ctn input[type=submit]:hover {
   opacity: 1;
+}
+
+/* IMPORT _CONTACT-CONTAINER */
+/* CONTACT-CONTAINER */
+.contact-ctn {
+  text-align: center;
+  padding: 5rem 0 2rem 0;
+}
+.contact-ctn h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+.contact-ctn p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.contact-ctn input, .contact-ctn textarea {
+  width: 200px;
+  padding: 10px 20px;
+  margin: 0 10px 20px;
+  font-size: 16px;
+  border: 1px solid var(--VeryLightGrey-color);
+  border-radius: px;
+}
+.contact-ctn textarea {
+  display: block;
+  width: 470px;
+  height: 150px;
+  margin: 0 auto 20px;
+}
+.contact-ctn input[type=submit] {
+  display: block;
+  margin: 0 auto;
+  background-color: var(--JungleGreen-color);
+  color: var(--White-color);
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
