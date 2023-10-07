@@ -308,4 +308,61 @@ p {
 }
 
 /* IMPORT _RESPONSIVE */
-/* RESPONSIVE PAGE *//*# sourceMappingURL=styles.css.map */
+/* RESPONSIVE PAGE */
+/* small laptops 1100px */
+@media (max-width: 1100px) {
+  .plans-ctn {
+    width: 95%;
+  }
+  .plan {
+    margin: 0 5px;
+  }
+}
+/* tablet 900px */
+@media (max-width: 900px) {
+  .main-banner {
+    padding: 0 6rem;
+  }
+  .searchdomain-ctn {
+    padding: 2rem 4rem;
+  }
+}
+/* cellphone 576px */
+@media (max-width: 576px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  .nav-ctn li {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .main-banner p {
+    padding: 0 2rem;
+  }
+  .services-ctn ul {
+    flex-direction: column;
+  }
+  .plans-ctn {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 2rem;
+  }
+  .plan {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+  .searchdomain-ctn h2 {
+    font-size: 28px;
+  }
+  .searchdomain-ctn input[type=text] {
+    width: 100%;
+  }
+  .contact-ctn {
+    padding: 3rem 2rem;
+  }
+  .contact-ctn input, .contact-ctn textarea {
+    width: 100%;
+    margin: 10px 0;
+  }
+}/*# sourceMappingURL=styles.css.map */
