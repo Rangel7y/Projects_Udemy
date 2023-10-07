@@ -15,6 +15,8 @@
   --Zircon-color: #E8E9EA;
   --LimeGreen-color: #2CC762;
   --Crusta-color: #F45C57;
+  --BigStone-color: #34454E;
+  --LightGrey-color: #D5D5D5;
 }
 
 /* IMPORT _BODY */
@@ -223,4 +225,42 @@ p {
 }
 
 /* IMPORT _SEARCHDOMAIN */
-/* SEARCHDOMAIN-CONTAINER *//*# sourceMappingURL=styles.css.map */
+/* SEARCHDOMAIN-CONTAINER */
+.searchdomain-ctn {
+  text-align: center;
+  padding: 5rem 0;
+  background-color: var(--BigStone-color);
+}
+.searchdomain-ctn h2 {
+  font-size: 42px;
+  color: var(--White-color);
+  margin-bottom: 15px;
+}
+.searchdomain-ctn p {
+  color: var(--LightGrey-color);
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.searchdomain-ctn input {
+  display: block;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.searchdomain-ctn input[type=text] {
+  width: 60%;
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.searchdomain-ctn input[type=submit] {
+  padding: 15px 30px;
+  background-color: var(--MountainMeadow-color);
+  color: var(--White-color);
+  font-size: 24px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.searchdomain-ctn input[type=submit]:hover {
+  opacity: 1;
+}/*# sourceMappingURL=styles.css.map */
