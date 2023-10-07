@@ -1,2 +1,62 @@
 
 /* SEARCHDOMAIN-CONTAINER */
+.searchdomain-ctn{
+    text-align: center;
+
+    padding: 5rem 0;
+
+    background-color: var(--BigStone-color);
+
+    h2{
+        font-size: 42px;
+
+        color: var(--White-color);
+
+        margin-bottom: 15px;
+    }
+
+    p{
+        color: var(--LightGrey-color);
+
+        font-size: 24px;
+
+        margin-bottom: 25px;
+    }
+
+    input{
+        display: block;
+
+        border: none;
+
+        border-radius: 5px;
+
+        margin: 0 auto;
+    }
+
+    input[type="text"]{
+        width: 60%; 
+        padding: 20px;
+
+        font-size: 20px;
+
+        margin-bottom: 25px;
+    }
+
+    input[type="submit"]{
+        padding: 15px 30px;
+
+        background-color: var(--MountainMeadow-color);
+
+        color: var(--White-color);
+
+        font-size: 24px;
+
+        cursor: pointer;
+
+        opacity: .8;
+
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
