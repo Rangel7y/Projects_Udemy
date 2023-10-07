@@ -154,7 +154,7 @@ p {
 }
 
 /* IMPORT _PRICING-CONTAINER */
-/* _PRICING-CONTAINER */
+/* PRICING-CONTAINER */
 .pricing-ctn {
   padding-bottom: 5rem;
   text-align: center;
@@ -220,4 +220,7 @@ p {
 }
 .plan .recommended {
   background-color: var(--Crusta-color);
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/* IMPORT _SEARCHDOMAIN */
+/* SEARCHDOMAIN-CONTAINER *//*# sourceMappingURL=styles.css.map */
